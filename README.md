@@ -27,6 +27,7 @@
   - dao: DAOクラスを格納
   - ep: APIエンドポイント。MVCのController
   - model: Modelクラスを格納
+    - entities.py: SQLAlchemy用のModel設定。
 - .env.example: 環境ごとに変えたい変数を管理する「.env」ファイルの元ネタ。当ファイルをコピー、リネームして使用する。
 - main.py: FastAPIのメインクラス。全体の設定と、APIのルーティングを行う。
   
